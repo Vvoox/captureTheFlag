@@ -1,0 +1,62 @@
+
+.clickable {
+  cursor: pointer;
+
+}
+.mystyle{
+  margin-left: 100%;
+}
+.mysearch{
+  /*width: 300px;*/
+  margin-left: 42%;
+  color:white;
+}
+.myfont{
+  font-family: "Times New Roman", Times, serif;
+}
+.mystyle4{
+  /*border: 1px slategray;*/
+  border-radius: 30px 30px 0 0;
+  text-decoration: none;
+  /*margin-top: 10px;*/
+  margin-left: 15%;
+}
+.mystyle1{
+  /*margin-top: 10px;*/
+  margin-left: 12%;
+}
+
+.mystyle2{
+  /*margin-top: 10px;*/
+  margin-left: 2%;
+}
+#header1 {
+  margin-top: -19px;
+  background: #355c7d;
+  background:
+    /* gradient overlay */
+    linear-gradient(
+      to bottom,
+      rgba(105, 175, 102, 0.6), /* #cb356b */ rgba(68, 69, 73, 0.5) /* #bd3f32 */
+    );
+  /* bottom image */
+  /*url('src/app/images/1.jpg') no-repeat left top;*/
+  background-size: cover;
+  z-index: 0;
+}
+#header1 .caption {
+  text-align: center;
+  color: #fff;
+}
+#header1 .caption .title {
+  margin-bottom: 1.5rem;
+}
+#header1 .caption .text {
+  margin-bottom: 1.5rem;
+}
+#header1 .caption .action {
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 15px;
+}
